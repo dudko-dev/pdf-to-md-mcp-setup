@@ -1,0 +1,24 @@
+{
+  "name": "pdf-to-md",
+  "description": "Official pdf2md plugin for Claude Code — convert PDFs to clean Markdown through the pdf2md API.",
+  "owner": {
+    "name": "dudko.dev",
+    "email": "sergey@dudko.dev"
+  },
+  "plugins": [
+    {
+      "name": "pdf-to-md",
+      "source": "./",
+      "description": "Let Claude convert PDFs to Markdown with pdf2md: the MCP server returns a ready, checked API request with a short-lived credential, and the PDF never passes through the model.",
+      "category": "productivity",
+      "tags": [
+        "pdf",
+        "markdown",
+        "pdf-to-markdown",
+        "documents",
+        "rag",
+        "conversion"
+      ]
+    }
+  ]
+}
