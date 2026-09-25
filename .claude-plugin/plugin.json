@@ -1,0 +1,28 @@
+{
+  "name": "pdf-to-md",
+  "description": "Let Claude convert PDFs to Markdown with pdf2md: the MCP server returns a ready, checked API request with a short-lived credential, and the PDF never passes through the model.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dudko.dev",
+    "email": "sergey@dudko.dev"
+  },
+  "homepage": "https://pdf2md.dudko.dev",
+  "repository": "https://github.com/dudko-dev/pdf-to-md-mcp-setup",
+  "keywords": [
+    "pdf2md",
+    "pdf",
+    "markdown",
+    "pdf-to-markdown",
+    "mcp",
+    "documents",
+    "rag",
+    "llm",
+    "conversion"
+  ],
+  "mcpServers": {
+    "pdf-to-md": {
+      "type": "http",
+      "url": "https://pdf2md.dudko.dev/mcp"
+    }
+  }
+}
